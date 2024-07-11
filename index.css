@@ -1,0 +1,79 @@
+body{
+    background:hsl(0, 0%, 8%);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.wrapper{
+    background-color: hsl(0, 0%, 12%);
+    padding: 50px 20px 20px 20px;
+    border-radius :10px;
+    font-family: Inter;
+}
+
+img{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.socials, a {
+    display: flex;
+    justify-content: center;
+    /* width: 20em; */
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    
+}
+
+.github, .frontend, .linkedin, .twitter, .insta{
+    /* display: flex; */
+    padding:15px;
+    margin:10px;
+    border-radius :10px;
+    background-color: hsl(0, 0%, 20%);
+    /* font-weight: 400; */
+}
+
+.name, .address, .intro{
+    /* margin-left: 15px; */
+    margin: 10px;
+}
+
+.name {
+    font-size: 22px;
+}
+
+.address {
+    color: rgb(179, 245, 81);
+}
+
+.intro {
+    /* font-size: 14px; */
+    margin: 25px;
+}
+
+.attribution {
+    display: flex;
+    /* font-size: px;  */
+    text-align: center;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+a:hover{
+    color:green
+}
